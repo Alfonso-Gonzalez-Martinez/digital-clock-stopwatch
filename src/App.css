@@ -1,0 +1,82 @@
+body{
+    background-image: url("./assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.app-container{
+    backdrop-filter: blur(2px);
+    min-width: 100vw;
+    padding: 10px 0;
+}
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 30px;
+    margin-top: 0;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+
+}
+.display{
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: background-color ease 0.5s;
+}
+.start-button{
+    background-color: hsl(120, 100%, 25%);
+}
+.start-button:hover{
+    background-color: hsl(120, 100%, 15%);
+}
+.stop-button{
+    background-color: hsl(0, 90%, 42%);
+}
+.stop-button:hover{
+    background-color: hsl(0, 90%, 32%);
+}
+.reset-button{
+    background-color: hsl(253, 100%, 25%);
+}
+.reset-button:hover{
+    background-color: hsl(253, 100%, 15%);
+}
