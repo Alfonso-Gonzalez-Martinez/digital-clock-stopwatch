@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body{
     background-image: url("./assets/background.jpg");
     background-position: center;
@@ -50,6 +56,11 @@ body{
     text-shadow: 3px 3px 5px black;
     text-align: center;
 }
+.controls{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .controls button{
     font-size: 1.5rem;
     font-weight: bold;
@@ -79,4 +90,13 @@ body{
 }
 .reset-button:hover{
     background-color: hsl(253, 100%, 15%);
+}
+
+@media (max-width: 400px){
+    .clock{
+        font-size: 3rem;
+    }
+    .display{
+        font-size: 3rem;
+    }
 }
