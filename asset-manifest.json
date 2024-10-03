@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/digital-clock-stopwatch/static/css/main.2a186be4.css",
+    "main.css": "/digital-clock-stopwatch/static/css/main.974e6560.css",
     "main.js": "/digital-clock-stopwatch/static/js/main.ac4c7e1f.js",
     "static/js/453.1ae98914.chunk.js": "/digital-clock-stopwatch/static/js/453.1ae98914.chunk.js",
     "static/media/background.jpg": "/digital-clock-stopwatch/static/media/background.66b604f6a675e8cc449c.jpg",
     "index.html": "/digital-clock-stopwatch/index.html",
-    "main.2a186be4.css.map": "/digital-clock-stopwatch/static/css/main.2a186be4.css.map",
+    "main.974e6560.css.map": "/digital-clock-stopwatch/static/css/main.974e6560.css.map",
     "main.ac4c7e1f.js.map": "/digital-clock-stopwatch/static/js/main.ac4c7e1f.js.map",
     "453.1ae98914.chunk.js.map": "/digital-clock-stopwatch/static/js/453.1ae98914.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a186be4.css",
+    "static/css/main.974e6560.css",
     "static/js/main.ac4c7e1f.js"
   ]
 }
